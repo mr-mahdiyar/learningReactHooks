@@ -1,5 +1,6 @@
 در این پروژه با هوک های ری اکت مثل :
 + useRef
-+useMemo
++ useMemo
++ useCallBack
 
 آشنا خواهیم شد.
