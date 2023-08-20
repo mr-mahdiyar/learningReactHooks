@@ -2,5 +2,6 @@
 + useRef
 + useMemo
 + useCallBack
++ useReducer
 
 آشنا خواهیم شد.

@@ -1,5 +1,5 @@
 import Accordion from "./components/Accordion";
-import {UseRefExample, UseMemoExample, UseCallbackExample} from "./hooks"
+import {UseRefExample, UseMemoExample, UseCallbackExample, UseReducerExample} from "./hooks"
 
 const App = () => {
   return (
@@ -18,6 +18,10 @@ const App = () => {
       <hr className="text-success" />
       <Accordion title="مثال آموزشی هوک useCallback" heading="headingThree">
         <UseCallbackExample />
+      </Accordion>
+      <hr className="text-success" />
+      <Accordion title="مثال آموزشی هوک useReducer" heading="headingFour">
+        <UseReducerExample />
       </Accordion>
       <hr className="text-dark" />
     </div>
